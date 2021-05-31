@@ -1,0 +1,15 @@
+.Headingjoin {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.joinbox.formbox h1 {
+    font-family: Big Shoulders Display;
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 2s;
+    color: gold;
+  }

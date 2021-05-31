@@ -1,0 +1,105 @@
+.MBS {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.musicboxEP {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text1 {
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 800px;
+}
+.text1 h1 {
+  font-family: Big Shoulders Display;
+  text-decoration: none;
+  color: gold;
+  font-size: 32px;
+  opacity: 50%;
+  transition: opacity 2s;
+}
+
+.text2 {
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 800px;
+}
+.text2 h1 {
+  font-family: Big Shoulders Display;
+  text-decoration: none;
+  color: gold;
+  font-size: 32px;
+  opacity: 50%;
+  transition: opacity 2s;
+}
+
+.singlesbox {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.EPbox {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+
+  justify-content: flex-start;
+}
+.thumb {
+  background-color: black;
+  margin: 20px 2px;
+  height: 150px;
+  width: 150px;
+  border-style: solid;
+  border-color: gold;
+  transition-timing-function: ease;
+}
+.thumb img {
+  height: 150px;
+  width: 150px;
+}
+
+.thumb {
+  border-color: white;
+  transition: border-color 2s;
+}
+
+.thumb:hover {
+  border-color: gold;
+  transition: border-color 2s;
+}
+
+.thumb img:hover {
+  opacity: 30%;
+  transition: opacity 2s;
+}
+
+.HL.anchors.c2atM {
+
+  color: gold;
+}
+

@@ -1,0 +1,130 @@
+.joinbox {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinbox.formbox {
+  width: 400px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinbox.formbox.form {
+  width: 300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joinbox.formbox.form.join {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0%;
+  width: 50px;
+  height: auto;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+  font-family: Big Shoulders Display;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  transition-timing-function: ease;
+}
+
+.joinbox.formbox.form.email {
+  background-color: black;
+  padding: 0%;
+  width: 200px;
+  height: auto;
+  appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Big Shoulders Display ExtraBold;
+  border-style: solid;
+  border-bottom: 2px solid aliceblue;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  outline: none;
+}
+
+.Headingbox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.Headingjoin {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.joinbox.formbox.form.join:hover {
+  color: gold;
+  transition: color 2s;
+}
+
+.Headingjoin h1 {
+  font-family: Big Shoulders Display;
+  color: aliceblue;
+  font-size: 40px;
+}
+.Headingjoin h3 {
+  font-family: Big Shoulders Display;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.socialjoinbox {
+  width: 100%;
+  min-height: 200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.socialjoin {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.socialjoin h1 {
+  font-family: Big Shoulders Display;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.HL.anchors.c2atS {
+  color: gold;
+}
+
+@media screen and (max-width: 600px) {
+  .socialjoin h1 {
+    font-size: 15px;
+  }
+  .Headingjoin h1 {
+    font-size: 30px;
+  }
+  .Headingjoin h3 {
+    font-size: 18px;
+  }
+}
